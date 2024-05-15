@@ -45,6 +45,4 @@ export class PrimaryInputComponent implements ControlValueAccessor{
   registerOnTouched(fn: any): void {
     this.onTouched = fn
   }
-
-  setDisabledState(isDisabled: boolean): void {}
 }
